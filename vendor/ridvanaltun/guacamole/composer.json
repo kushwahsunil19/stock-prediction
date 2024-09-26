@@ -1,0 +1,28 @@
+{
+  "name": "ridvanaltun/guacamole",
+  "description": "Manage Guacamole with an easy SDK.",
+  "keywords": [
+    "guacamole",
+    "sdk"
+  ],
+  "type": "library",
+  "require": {
+    "guzzlehttp/guzzle": "^7.0.1"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.16"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rıdvan Altun",
+      "email": "ridvanaltun@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ridvanaltun\\Guacamole\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
